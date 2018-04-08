@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "bookmarks.png",
+      "default_popup": "bookmarks.html"
+   },
+   "description": "Provides convenient access to Owncloud Bookmarks.",
+   "icons": {
+      "128": "owncloudBookmark.png"
+   },
+   // "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxrpWQsBDdgh+1B2UnKRQdK9HfchfepyuHPHU3pnIzapt0yAk81OHG5U3LMiQGgkS7T7PjXWRWUxHAzJuJlnr2G9qP0eTj+LNrkNiyBC4RFJB+zvnTVZtIBc1cEFeyY9d7d43DKTLawj2uIPRAso/s6GhknUo7nOzcMs8dA5VhLwIDAQAB",
+   "manifest_version": 2,
+   "name": "Owncloud Bookmarks",
+   // "options_page": "config.html",
+   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+   // "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.15"
+}
